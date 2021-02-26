@@ -1,0 +1,238 @@
+/* big tablet to 1200px(widths smaller than  1140px row) */
+
+@media only screen and (max-width:1200px) {
+    html{
+        font-size: 18px;
+    }
+    .column {
+        height: 60vh;
+    }
+    .background-text-box-text {
+        width: 1024px;
+    }
+    .figue__img{
+        width: 50%;
+    }
+    .row {
+        width: 970px;
+    } 
+    
+        .team-photo{
+            width: 75%;
+        }
+}
+
+
+/* small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width:1023px) {
+    html{
+        font-size: 16px;
+    }
+    .column {
+        height: 50vh;
+    }
+    .background-text-box-text {
+        width: 767px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    .figue__img{
+        width: 68%;
+    }
+    .row {
+        width: 667px;
+    }
+
+    .category-icon{
+    }
+    .box {
+        padding: 0%;
+        margin-right: 8px;
+    }
+    .team-icons{
+        width: 25px;
+        margin-right: 5px;
+    }
+
+
+        .team-photo{
+            width: 100%;
+        }
+
+}
+
+
+/* small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    html{
+        font-size: 14px;
+    }
+    .background-text-box-text {
+        width: 481px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .figue__img{
+        width: 100%;
+    }
+    .row {
+        width: 423px;
+        
+    }
+    .col{
+        margin-top: 1%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        
+    }
+    .long-copy{
+        width:90%;
+        margin-left:5%;
+        margin-bottom: 15px;
+        font-size:16px
+    }
+    .category-icon{
+        width: 45px;
+        margin-top:10px
+    }
+    .griptape-photo{
+        width: 80%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    .griptape-caption {
+        height: 40px;
+    }
+    .price__tag{
+        padding-top: 0;
+    }
+    .box-team {
+        padding: 3%;
+       text-align: center;
+    }
+    .h3-team {
+        margin-bottom: 6%;
+    }
+    .box-of-input{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .box-of-input .row .col.span-1-of-3{
+        margin-bottom: 10px;
+    }
+    .row__how{
+        flex-direction: column;
+    }
+    .col__how{
+        width: 100vw;
+    }
+    .col__content{
+        width: 100vw;
+    }
+    .col__content h3{
+        width: 90%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 5%;
+        }
+    .col__content p{
+        width: 90%;
+        margin:0 auto;
+    }
+    .col__content img{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5%;
+        display:block;
+        top:0;
+        right:0;
+    }
+
+    /* the following 13 lines are from the grid.css */
+
+	.span-1-of-4-team {
+		width: 50%;
+    }
+    .span-4-of-4 {
+		width: 100%; 
+	}
+	.span-3-of-4 {
+		width: 100%; 
+	}
+	.span-2-of-4 {
+		width: 100%; 
+	}
+	.span-1-of-4 {
+		width: 100%;
+    }
+    .span-3-of-3 {
+		width: 100%; 
+	}
+	.span-2-of-3 {
+		width: 100%; 
+	}
+	.span-1-of-3 {
+		width: 100%;
+    }
+
+    .span-2-of-2 {
+		width: 100%; 
+	}
+	.span-1-of-2 {
+		width: 100%; 
+    }
+    .span-1-of-2-team{
+        width: 49.2%;
+    }
+
+}
+
+/* small phones: from 0 to 480px */
+
+
+@media only screen and (max-width: 480px) {  
+    html{
+        font-size: 12px;
+    }
+    .background-text-box-text {
+        width: 340px;
+        font-size: 100%;
+        padding:0 10px 0 10px;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 180%;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 145%;
+    }  
+    .box p{
+        font-size: 100%;
+    }
+    .griptape-caption{
+        font-size: 100%;
+        line-height: 18px;
+    }
+    .row {
+        width: 290px;
+        
+    }
+    .social-links img{
+        width: 20px;
+    }
+    .social-links {
+        margin-top: 10px;
+        list-style: none;
+        float: right;
+    }
+    #file-upload{
+        width: 300px;
+    }
+}
