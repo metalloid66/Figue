@@ -6,7 +6,7 @@ $products_row1 = array(
         "productNum" =>1,
         "title" => "Griptape 1",
         "price" => 12000,
-        "caption" => "Griptape Woman In Purple shit",
+        "caption" => "Griptape Woman In Purple shape",
         "image" => "<img src=\"resources/img/griptapes/resized/griptape1.jpg\">"
 
     ),
@@ -15,7 +15,7 @@ $products_row1 = array(
         "productNum" =>2,
         "title" => "Griptape 2",
         "price" => 5000,
-        "caption" => "Griptape Eye In red shit",
+        "caption" => "Griptape Eye In red shape",
         "image" => "<img src=\"resources/img/griptapes/resized/griptape2.jpg\">"
         
     ),
@@ -24,7 +24,7 @@ $products_row1 = array(
         "productNum" =>3,
         "title" => "Griptape 3",
         "price" => 5000,
-        "caption" => "Griptape people In black shit",
+        "caption" => "Griptape people In black shape",
         "image" => "<img src=\"resources/img/griptapes/resized/griptape3.jpg\">"
         
     )
